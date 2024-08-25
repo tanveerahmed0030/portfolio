@@ -13,6 +13,27 @@ header {
     text-align: center;
 }
 
+header img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #005f73;
+}
+
 nav {
     background: #555;
     color: #fff;
@@ -43,8 +64,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project {
-    margin-bottom: 20px;
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 footer {
@@ -52,9 +75,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 h1, h2 {
